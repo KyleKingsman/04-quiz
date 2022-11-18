@@ -1,0 +1,109 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    background-image:url(https://st4.depositphotos.com/16959514/25153/v/600/depositphotos_251534756-stock-illustration-neon-question-mark-frame-quiz.jpg);
+    background-repeat: no-repeat;
+    background-position:center; 
+    background-size: cover;
+  }
+
+main {
+    text-align: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    margin-left:200px;
+    margin-right:300px;
+    margin-bottom: 300px;
+    color: rgb(255, 117, 117);
+    text-shadow: rgb(0, 255, 4);
+    font-size:larger;
+}
+footer {
+    text-align: center;
+    color: fuchsia;
+}
+
+.question_page {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*hide the bullet points from listings*/
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 50px;
+   }
+
+li {
+    margin-bottom: 10px;
+}
+
+/*display only the intro page and hide the rest sections*/
+.question_page, .submit_page, .highscore_page, #check_line {
+    display:none;
+}
+
+.button{
+    background-image: url(https://media.istockphoto.com/id/501120940/photo/gold-glitter-background.jpg?b=1&s=170667a&w=0&k=20&c=0F2_qtxs5WybWdd3KIDzVnUctuYk51g0TAP8LfGmFN4=);
+    border-radius: 20px;
+    padding: 20px;
+    cursor:help;
+    margin-bottom: 10px;
+    color: azure;
+    font-size: large;
+  }
+  #timer{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+  }
+.button:hover{
+  
+    background-color:palevioletred
+  
+}
+
+    
+
+@media only screen and (max-width: 960px) {
+    body {
+        background-image: url(https://i.pinimg.com/736x/1d/c6/94/1dc6948515afba693d7adf42ac03ef90.jpg);
+      
+    }
+    main {
+        margin-left:50px;
+        margin-right:50px;
+    }
+  }
+
+@media only screen and (max-width: 520px) {
+    body {
+     background-image: url(https://i.pinimg.com/736x/1d/c6/94/1dc6948515afba693d7adf42ac03ef90.jpg) ;
+      font-size: 130%;
+    }
+    main {
+        margin-left:12px;
+        margin-right:12px;
+    }
+}
