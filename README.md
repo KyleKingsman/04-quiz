@@ -1,2 +1,3 @@
-# 04-quiz
- javascript quiz
+# QuizMe-MOD4
+ javascript quiz covering javascript
+ 
